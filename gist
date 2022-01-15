@@ -1,0 +1,48 @@
+https://gist.github.com/4464507edccc3dd16a6ac479821a5f83.git
+
+# Project Proposal
+
+I'd like to help users plan their perfect day at Disneyland Resort (CA). The landing page will be a form that the user will fill out.
+Based on their responses, I will create an itinerary and display it on the next screen.
+
+## Technologies Required
+
+Themepark API: https://github.com/cubehouse/themeparks
+
+## Data Model
+
+Link: https://drive.google.com/file/d/1sxFqup_XdyIoOqXV467xPJ33mPIZCmZk/view?usp=sharing
+Link: https://drive.google.com/file/d/1mXfsCNGNcynMb2sxAE2vVTqUDl7X7Iti/view?usp=sharing
+
+There is a table for each question whose answer will get pushed to a comment table.
+The association table will hold the data until all questions are answered.
+Once all questions are answered, then the class is calculated and answer is displayed.
+
+The question and class tables will have primary keys.
+The association table will be using foreign keys to access the questions and class tables.
+
+The structure is many (questions tables) to one (association table) to many (class tables).
+
+
+## Roadmap
+
+### MVP
+
+- Landing page with form
+- Different types of forms with multiple options
+- Results page that incorporates API
+
+### 2.0
+
+- Adding session
+- Adding a login for user
+
+### Nice-to-haves
+
+- Nice DL pics and other pretty CSS styling
+- Put Disney spin/touch on it to get people excited
+
+
+## Notes
+
+N/A
